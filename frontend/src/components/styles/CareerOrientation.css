@@ -1,0 +1,75 @@
+.career-container {
+    flex: 1;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.recommended-no-1 {
+    flex: 1;
+    background-color: #033076;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+    justify-content: right;
+}
+
+.recommended-career-1 {
+    flex: 4;
+    background-color: #033076;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.recommended-no-2 {
+    flex: 1;
+    background-color: #2171B7;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+    justify-content: right;
+}
+
+.recommended-career-2 {
+    flex: 4;
+    background-color: #2171B7;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.not-recommended-no-1 {
+    flex: 1;
+    background-color: #F97171;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+    justify-content: right;
+}
+
+.not-recommended-career-1 {
+    flex: 4;
+    background-color: #F97171;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.not-recommended-no-2 {
+    flex: 1;
+    background-color: #FFA382;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+    justify-content: right;
+}
+
+.not-recommended-career-2 {
+    flex: 4;
+    background-color: #FFA382;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 5px;
+}
+

@@ -1,0 +1,43 @@
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Adjust space between items if needed */
+}
+
+.rectangle-5 {
+  height: 36vh;
+  width: 71vh;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.09);
+  background: #F8FAFE;
+  border-radius: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.chart-3 {
+  padding-top: 3vh;
+  padding-left: 2vh;
+  width: 50vh;
+}
+
+.text-box {
+  flex: 1vh;
+  font-size: 2vh;
+  padding-top: 7vh;
+  border: 0px solid #ddd;
+  border-radius: 0px;
+  background-color: #F8FAFE;
+}
+
+.career {
+	color: #0844A4;
+	font-family: "Nunito";
+	font-weight: 900;
+	font-size: 2.5vh;
+	letter-spacing: -0.2px;
+	text-align: left;
+	padding-left: 1vh;
+	padding-top: 1vh;
+}

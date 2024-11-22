@@ -1,0 +1,209 @@
+.career-info-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.career-info-container {
+    background: #FFFFFF;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1000px;
+    height: 60%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.career-icon-with-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.specific-career-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.career-title {
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+}
+
+.content-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.description, .career-paths, .salary-range, .recommended-courses-title {
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.upcoming-events{
+    margin-top: -3px;
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.description-text{
+    margin-bottom: 10px;
+}
+
+.salary-range {
+    margin-top: 15px;
+}
+
+.career-paths-list {
+    background: #E3ECFF;
+    border-radius: 8px;
+    padding: 10px 10px 10px 20px; /* Increased left padding for bullets */
+    list-style-type: disc; /* This adds the bullet points */
+    margin-bottom: 10px;
+}
+
+.career-path-item {
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.career-paths-rectangle-text-input, .recommended-course-degree-text,
+.recommended-course-major, .recommended-course-offered, .upcoming-events-rectangle-text-input {
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.description-text {
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.career-paths-rectangle-text-input, .upcoming-events-rectangle-text-input {
+    background: #E3ECFF;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.salary-range-chart {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.recommended-courses-rectangle {
+    background: #E3ECFF;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.alumni-testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.alumni-testimonial-avatar-image {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.alumni-testimonial-name-with-title {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alumni-testimonial-name {
+    font-family: "Nunito";
+    text-align: left;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.alumni-testimonial-title {
+    font-family: "Nunito";
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.alumni-testimonial-quote {
+    font-family: "Nunito";
+    text-align: left;
+    color: #002147;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.close-button-container {
+    position: sticky;
+    overflow: visible;
+}
+
+.close-button {
+    margin-top: 5px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    z-index: 1000;
+    background: url('./images/close-button.png');
+    background-size: contain;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-grid {
+        flex-direction: column;
+    }
+}

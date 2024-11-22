@@ -1,0 +1,159 @@
+/* Header Style*/
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh; /* Adjust based on your design */
+    background-color: #002147;
+    padding: 2vh;
+    z-index: 1050;
+}
+
+header h1 {
+    font-family: "Nunito";
+    color: #E62838;
+    font-size: 3vh;
+    font-weight: 400;
+    margin-right: auto; /* Pushes subsequent items to the right */
+    margin-left: 1vh; /* Optional: Adjust spacing between logo and title */
+}
+
+.user-account {
+    padding-right: 3vh;
+    font-size: 1.8vh;
+    color: white;
+}
+
+.user {
+    color: white;  /* Keeps the icon color */
+    margin-right: 1vh;  /* Adds space to the right of the icon */
+}
+
+/* Navigation Style */
+nav.leftNav {
+    justify-self: center;
+    align-items: center; /* Centers items horizontally in the navigation bar */
+    background-color: #D1E0F8; /* 导航栏的背景颜色 */
+    top: 10vh;
+    padding-top: 2vh;
+    width: 27vh; /* 导航栏的宽度 */
+    height: 100%; /* Ensure it fills the container */
+    position: fixed; /* Make it fixed on the left */
+}
+
+nav ul {
+    list-style-type: none; /* 去掉列表样式 */
+    margin-left: 3vh;
+    padding: 0;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #8B5CF600;
+    color: #000000;
+    border-radius: 12px;
+    text-align: center;
+    font-family: "Nunito";
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 4vh;
+    font-size: 2vh;
+}
+
+nav ul li a:hover {
+    background-color: #2155A4;
+    width: 22vh;
+    color: #fff;
+}
+
+/* Account Details Title */
+.navTitleBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 100%;
+    padding: 8px;
+    background: #64AAD2;
+    text-align: center;
+    margin-bottom: 1vh; /* 设置标题与下方内容的间距 */
+    box-sizing: border-box; /* 包括内边距在内的宽度计算 */
+    margin-top: 130%;
+}
+
+#navTitle {
+    color: #002147;
+    font-family: "Nunito";
+    font-weight: bolder;
+    font-size: 2vh;
+    letter-spacing: 1.0px;
+}
+
+.navLogo {
+    font-size: 2vh;
+    color: #002147;
+    padding: 1vh;
+    cursor: pointer;
+}
+
+.user{
+    color: white;
+}
+
+.company-logo-png{
+    display: block;
+    width: 6vh;
+    height: auto;
+}
+
+.username-display {
+    color: #ffffff; /* Change this to your desired color */
+    font-weight: bold; /* Optional: make the text bold */
+  }
+
+.child-selector {
+    margin-right: 2vh; /* Adjust spacing between child selector and user account */
+}
+  
+.child-selector select,
+.single-child-name {
+    padding: 5px;
+    font-size: 1.5vh;
+    color: #000000;
+    background-color: #ffffff; /* Optional: background color */
+    border: none;
+    border-radius: 4px;
+}
+
+.dashboard-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1vh;
+  }
+  
+  .dashboard-title {
+    padding-top: 13vh;
+    margin-left: 30vh;
+      color: #000000;
+      font-family: "Nunito";
+      font-weight: 600;
+      font-size: 3vh;
+      letter-spacing: -0.2px;
+      text-align: left;
+  }
+  
+  .dashboard-title-comment {
+      opacity: 77%;
+    margin-left: 30vh;
+      color: #000000;
+      font-family: "Nunito";
+      font-weight: 400;
+      font-size: 2vh;
+      line-height: 1.3;
+      text-align: left;
+  }
+

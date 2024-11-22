@@ -1,0 +1,1 @@
+export const SET_SELECTED_CHILD = 'SET_SELECTED_CHILD';

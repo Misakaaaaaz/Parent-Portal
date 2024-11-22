@@ -1,0 +1,81 @@
+.widget-container {
+    flex: 1;
+}
+
+.institution-list-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.institution-container {
+    flex: 1;
+    display: flex;
+}
+
+.rank-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #002147; */
+    color: white;
+    padding: 2%;
+
+}
+
+.overall-rank-container, .subject-rank-container {
+    flex: 1;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.overall-rank-container {
+    background-color: #002147;
+    margin-bottom: 10px;
+}
+
+.subject-rank-container {
+    background-color: #E4ECFF;
+    color: #002147;
+}
+
+.institution-logo-container-1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.institution-logo {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.institution-name-container {
+    flex: 1;
+    display: flex;;
+    align-items: center;
+}
+
+.institution-name {
+    flex: 1;
+    font-weight: bold;
+}
+
+.course-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.course-name {
+    flex: 1;
+    font-weight: bold;
+    color: #1E3A8A;   
+}

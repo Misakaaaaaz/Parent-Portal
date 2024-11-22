@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4683194 */
+  src: url('iconfont.woff2?t=1727408464789') format('woff2'),
+       url('iconfont.woff?t=1727408464789') format('woff'),
+       url('iconfont.ttf?t=1727408464789') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coin1:before {
+  content: "\e631";
+}
+
+.icon-calendar1:before {
+  content: "\e669";
+}
+
+.icon-signout:before {
+  content: "\e633";
+}
+
+.icon-survey:before {
+  content: "\e614";
+}
+
+.icon-setting:before {
+  content: "\e78e";
+}
+
+.icon-account:before {
+  content: "\e655";
+}
+
+.icon-homepage:before {
+  content: "\e702";
+}
+
+.icon-Account:before {
+  content: "\e648";
+}
+
+.icon-chalkboard-teacher:before {
+  content: "\e600";
+}
+
+.icon-xuesheng:before {
+  content: "\e668";
+}
+
+.icon-InterestsOutlined:before {
+  content: "\e83e";
+}
+
+.icon-a-CareerPath:before {
+  content: "\e8aa";
+}
+

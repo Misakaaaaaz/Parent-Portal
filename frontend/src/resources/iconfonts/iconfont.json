@@ -1,0 +1,93 @@
+{
+  "id": "4683194",
+  "name": "Parent Portal",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7821141",
+      "name": "coin",
+      "font_class": "coin1",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "581000",
+      "name": "calendar",
+      "font_class": "calendar1",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "257924",
+      "name": "sign_out",
+      "font_class": "signout",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "925076",
+      "name": "survey",
+      "font_class": "survey",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "4765891",
+      "name": "setting",
+      "font_class": "setting",
+      "unicode": "e78e",
+      "unicode_decimal": 59278
+    },
+    {
+      "icon_id": "5776868",
+      "name": "account",
+      "font_class": "account",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "7008947",
+      "name": "homepage",
+      "font_class": "homepage",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "9568054",
+      "name": "Account",
+      "font_class": "Account",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "11398712",
+      "name": "chalkboard-teacher",
+      "font_class": "chalkboard-teacher",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "22779665",
+      "name": "学生",
+      "font_class": "xuesheng",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "40173620",
+      "name": "InterestsOutlined",
+      "font_class": "InterestsOutlined",
+      "unicode": "e83e",
+      "unicode_decimal": 59454
+    },
+    {
+      "icon_id": "40669910",
+      "name": "Career Path",
+      "font_class": "a-CareerPath",
+      "unicode": "e8aa",
+      "unicode_decimal": 59562
+    }
+  ]
+}

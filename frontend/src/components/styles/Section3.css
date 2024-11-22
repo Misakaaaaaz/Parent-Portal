@@ -1,0 +1,52 @@
+.rectangle-10 {
+    height: 38vh;
+    width: 71vh;
+    padding: 8px 8px 8px 8px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.09);
+    background: #F8FAFE;
+    border-radius: 16px;
+    flex: 1;
+    min-width: 0;
+}
+
+.personality-1 {
+    font-family: "Nunito";
+    font-weight: 900;
+    font-size: 22px;
+    color: #0844A4;
+    text-align: left;
+}
+
+.chart-container {
+    margin-top: -1vh;
+    width: 60vh;
+    padding-left: 7vh;
+}
+
+.mbti-result-container {
+    font-size: 2vh;
+    display: flex;
+    font-weight: bold;
+    margin-top: 1vh;
+    font-family: "Nunito";
+    align-items: center; /* Aligns the text vertically on the same line */
+}
+
+.mbti-result {
+    padding-left: 0.3vh;
+}
+
+.subtitle {
+    padding-left: 1vh;
+}
+
+.title {
+    color: #0844A4;
+	font-family: "Nunito";
+	font-weight: 900;
+	font-size: 2.5vh;
+	letter-spacing: -0.2px;
+	text-align: left;
+	padding-left: 1vh;
+	padding-top: 1vh;
+}

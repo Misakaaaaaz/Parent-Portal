@@ -1,0 +1,164 @@
+.students-container {
+    margin-top: 13vh;
+    margin-left: 30vh;
+    width: 80vw;
+}
+
+.institution-fee-title {
+    font-weight: 600;
+    font-size: 3vh;
+    font-family: "Nunito";
+    letter-spacing: -0.2px;
+}
+
+.institution-fee-comment {
+    opacity: 0.77;
+    font-weight: 400;
+    font-size: 2vh;
+    font-family: "Nunito";
+    margin-bottom: 2vh;
+}
+
+.institutions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.institution-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.institution-left {
+    font-family: "Nunito";
+    width: 180px;
+    background-color: #002147;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overall-rank, .subject-rank {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.overall-rank {
+    background-color: #002147;
+    margin-bottom: 10px;
+}
+
+.subject-rank {
+    background-color: #E4ECFF;
+    color: #002147;
+}
+
+.institution-main {
+    flex: 1;
+    display: flex;
+    padding: 5vh;
+}
+
+.institution-logo-container {
+    justify-content: center;
+}
+
+.institution-info-container {
+    flex: 1;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.institution-address-container {
+    flex: 1;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: left;
+}
+
+.university-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.institution-name {
+    font-size: 2vh;
+}
+
+.institution-address {
+    color: #4B5563;
+    font-size: 1em;
+}
+
+.course-container {
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+    justify-content: left;
+}
+
+.course-fee-container {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.course-title {
+    font-size: 2vh;
+    font-weight: bold;
+    color: #1E3A8A;
+}
+
+.fees {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.domestic-fee, .international-fee {
+    font-family: "Nunito";
+    font-size: 0.9em;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.domestic-fee {
+    background-color: #002147;
+    color: white;
+}
+
+.international-fee {
+    background-color: #E4ECFF;
+    color: #002147;
+}
+
+.filter-component {
+    margin-bottom: 20px;
+}
+
+.filter-component select,
+.filter-component input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
