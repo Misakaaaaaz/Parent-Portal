@@ -21,7 +21,7 @@ import { fetchStudentDataById } from './services/studentData';
 import InstitutionWidget from './components/InstitutionWidget';
 import CareerOrientation from "./career/CareerOrientation";
 import BoxPlotChart from './components/BoxPlotChart';
-
+import UpcomingEvents from './components/UpcomingEvents';
 
 const Homepage = () => {
   const [studentData, setStudentData] = useState(null);
@@ -40,28 +40,22 @@ const Homepage = () => {
 
   return (
     <div className="dashboard-title-container">
-        <div className="dashboard-title">Homepage</div>
-        <div className="survey-results-title-comment">
-          Hello! Welcome to OIC Education Parent Portal.
-        </div>
+      <div className="dashboard-title">Homepage</div>
+      <div className="survey-results-title-comment">
+        Hello! Welcome to OIC Education Parent Portal.
+      </div>
       <div className="dashboard">
         <div className="content">
           <div className="main-content">
             <div className="top-row">
               <StudentOverview data={studentData} />
-              {/* <RecentEmotion data={studentData.recentEmotion} /> */}
-              <EmotionWidget recentEmotion={studentData.recentEmotion}/>
+              <EmotionWidget recentEmotion={studentData.recentEmotion} />
             </div>
-            {/* <AcademicPerformance data={studentData.subjects} /> */}
             <BoxPlotChart data={studentData.subjects} />
-
           </div>
           <div className="sidebar-dashboard">
             <Interests data={studentData.interests} />
-            {/* <RecentSurveys data={studentData.careerPaths}/> */}
-            <div className="student-institutions">
-              <InstitutionWidget studentName={studentData} />
-            </div>
+            <UpcomingEvents studentId={selectedChild._id} /> {/* Add Upcoming Events */}
           </div>
         </div>
       </div>

@@ -1,0 +1,32 @@
+.upcoming-events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.upcoming-event-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  background-color: #033076; /* Alternate colors if needed */
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.event-detail {
+  flex: 1;
+  font-size: 16px;
+}
+
+.no-events-message {
+  text-align: center;
+  color: #555555;
+  font-style: italic;
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 6px;
+}
