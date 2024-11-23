@@ -8,6 +8,7 @@
     font-weight: 600;
     font-size: 3vh;
     font-family: "Nunito";
+    color: #002147;
     letter-spacing: -0.2px;
 }
 
@@ -16,6 +17,7 @@
     font-weight: 400;
     font-size: 2vh;
     font-family: "Nunito";
+    color: #002147;
     margin-bottom: 2vh;
 }
 
@@ -29,7 +31,7 @@
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #F6F7E9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -38,30 +40,32 @@
     font-family: "Nunito";
     width: 180px;
     background-color: #002147;
-    color: white;
+    color: #F6F7E9;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.overall-rank, .subject-rank {
+.overall-rank,
+.subject-rank {
     font-family: "Nunito";
     margin: 0;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1.5vh;
     font-weight: bold;
     text-align: center;
     border-radius: 8px;
 }
 
 .overall-rank {
-    background-color: #002147;
+    background-color: #E71D1D;
+    color: #F6F7E9;
     margin-bottom: 10px;
 }
 
 .subject-rank {
-    background-color: #E4ECFF;
+    background-color: #89B0AE;
     color: #002147;
 }
 
@@ -69,6 +73,7 @@
     flex: 1;
     display: flex;
     padding: 5vh;
+    background-color: #FFFFFF;
 }
 
 .institution-logo-container {
@@ -98,11 +103,13 @@
 
 .institution-name {
     font-size: 2vh;
+    color: #002147;
+    font-weight: 600;
 }
 
 .institution-address {
     color: #4B5563;
-    font-size: 1em;
+    font-size: 1.8vh;
 }
 
 .course-container {
@@ -122,7 +129,7 @@
 .course-title {
     font-size: 2vh;
     font-weight: bold;
-    color: #1E3A8A;
+    color: #E71D1D;
 }
 
 .fees {
@@ -132,9 +139,10 @@
     gap: 10px;
 }
 
-.domestic-fee, .international-fee {
+.domestic-fee,
+.international-fee {
     font-family: "Nunito";
-    font-size: 0.9em;
+    font-size: 1.2vh;
     padding: 8px 12px;
     border-radius: 5px;
     font-weight: bold;
@@ -143,11 +151,11 @@
 
 .domestic-fee {
     background-color: #002147;
-    color: white;
+    color: #F6F7E9;
 }
 
 .international-fee {
-    background-color: #E4ECFF;
+    background-color: #F2CCC3;
     color: #002147;
 }
 
@@ -161,4 +169,7 @@
     margin-right: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
+    font-family: "Nunito";
+    background-color: #F6F7E9;
+    color: #002147;
 }

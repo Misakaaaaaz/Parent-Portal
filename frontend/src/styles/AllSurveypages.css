@@ -1,14 +1,14 @@
 .survey-results-title-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 1vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 1vh;
 }
 
 .survey-results-title {
-  padding-top: 13vh;
-  margin-left: 30vh;
-	color: #000000;
+	padding-top: 13vh;
+	margin-left: 30vh;
+	color: #002147;
 	font-family: "Nunito";
 	font-weight: 600;
 	font-size: 3vh;
@@ -18,8 +18,8 @@
 
 .survey-results-title-comment {
 	opacity: 77%;
-  margin-left: 30vh;
-	color: #000000;
+	margin-left: 30vh;
+	color: #002147;
 	font-family: "Nunito";
 	font-weight: 400;
 	font-size: 2vh;
@@ -28,10 +28,9 @@
 }
 
 .survey-results-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
-  grid-template-rows: repeat(2, auto);
-  grid-gap: 2vh; /* Space between grid items */
-  margin-left: 30vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, auto);
+	grid-gap: 2vh;
+	margin-left: 30vh;
 }
-

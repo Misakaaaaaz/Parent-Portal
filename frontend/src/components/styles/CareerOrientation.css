@@ -7,8 +7,8 @@
 
 .recommended-no-1 {
     flex: 1;
-    background-color: #033076;
-    color: #FFFFFF;
+    background-color: #002147; /* 深蓝色 */
+    color: #F6F7E9; /* 米色文字 */
     border-radius: 6px;
     padding: 5px;
     justify-content: right;
@@ -16,16 +16,16 @@
 
 .recommended-career-1 {
     flex: 4;
-    background-color: #033076;
-    color: #FFFFFF;
+    background-color: #002147; /* 深蓝色 */
+    color: #F6F7E9; /* 米色文字 */
     border-radius: 6px;
     padding: 5px;
 }
 
 .recommended-no-2 {
     flex: 1;
-    background-color: #2171B7;
-    color: #FFFFFF;
+    background-color: #89B0AE; /* 绿色 */
+    color: #002147; /* 深蓝色文字 */
     border-radius: 6px;
     padding: 5px;
     justify-content: right;
@@ -33,16 +33,16 @@
 
 .recommended-career-2 {
     flex: 4;
-    background-color: #2171B7;
-    color: #FFFFFF;
+    background-color: #89B0AE; /* 绿色 */
+    color: #002147; /* 深蓝色文字 */
     border-radius: 6px;
     padding: 5px;
 }
 
 .not-recommended-no-1 {
     flex: 1;
-    background-color: #F97171;
-    color: #FFFFFF;
+    background-color: #E71D1D; /* 红色 */
+    color: #F6F7E9; /* 米色文字 */
     border-radius: 6px;
     padding: 5px;
     justify-content: right;
@@ -50,16 +50,16 @@
 
 .not-recommended-career-1 {
     flex: 4;
-    background-color: #F97171;
-    color: #FFFFFF;
+    background-color: #E71D1D; /* 红色 */
+    color: #F6F7E9; /* 米色文字 */
     border-radius: 6px;
     padding: 5px;
 }
 
 .not-recommended-no-2 {
     flex: 1;
-    background-color: #FFA382;
-    color: #FFFFFF;
+    background-color: #F2CCC3; /* 浅粉色 */
+    color: #002147; /* 深蓝色文字 */
     border-radius: 6px;
     padding: 5px;
     justify-content: right;
@@ -67,9 +67,8 @@
 
 .not-recommended-career-2 {
     flex: 4;
-    background-color: #FFA382;
-    color: #FFFFFF;
+    background-color: #F2CCC3; /* 浅粉色 */
+    color: #002147; /* 深蓝色文字 */
     border-radius: 6px;
     padding: 5px;
 }
-
