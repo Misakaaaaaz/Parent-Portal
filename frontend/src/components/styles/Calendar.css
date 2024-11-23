@@ -1,7 +1,9 @@
+/* Calendar Title Section */
 .calendar-title {
     font-weight: 600;
     font-size: 3vh;
     font-family: "Nunito";
+    color: #002147; /* 深蓝色文字 */
     letter-spacing: -0.2px;
 }
 
@@ -10,14 +12,16 @@
     font-weight: 400;
     font-size: 2vh;
     font-family: "Nunito";
+    color: #89B0AE; /* 绿色文字 */
 }
 
-.calendar-title-container{
+.calendar-title-container {
     margin-top: 13vh;
     margin-left: 30vh;
     overflow: hidden;
 }
 
+/* Calendar Content Section */
 .calendar-content {
     display: flex;
     margin-left: 30vh;
@@ -42,12 +46,13 @@
 
 .sidebar {
     padding: 2vh 2vw;
-    background: #D1E0F899;
-    border: 1px solid #000000;
+    background: #F6F7E9; /* 米色背景 */
+    border: 1px solid #89B0AE; /* 绿色边框 */
     border-radius: 8px;
     box-sizing: border-box;
 }
 
+/* Filter Buttons */
 .filter-buttons {
     display: flex;
     justify-content: space-between;
@@ -57,8 +62,8 @@
 .filter-button {
     width: 48%;
     padding: 1vh 0;
-    background: #FFFFFF00;
-    color: #000000;
+    background: #F2CCC3; /* 粉色背景 */
+    color: #002147; /* 深蓝色文字 */
     font-family: "Nunito";
     font-weight: bold;
     font-size: calc(1rem + 0.5vw);
@@ -70,13 +75,15 @@
 }
 
 .filter-button.active {
-    background: #FFFFFF;
+    background: #E71D1D; /* 红色背景 */
+    color: #F6F7E9; /* 米色文字 */
 }
 
+/* Calendar Wrapper */
 .calendar-wrapper {
-    background: #002147;
-    color: #002147;
-    border-color: #002147;
+    background: #002147; /* 深蓝色背景 */
+    color: #F6F7E9; /* 米色文字 */
+    border-color: #89B0AE; /* 绿色边框 */
     border-width: 2px;
     border-style: solid;
     border-radius: 16px;
@@ -85,8 +92,9 @@
     box-sizing: border-box;
 }
 
+/* Custom Toolbar */
 .custom-toolbar {
-    background-color: #002147;
+    background-color: #002147; /* 深蓝色背景 */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +102,7 @@
 }
 
 .toolbar-label {
-    color: #F7F6F6;
+    color: #F6F7E9; /* 米色文字 */
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     font-size: calc(1.5rem + 0.5vw);
@@ -108,7 +116,7 @@
     border-right: 1vw solid transparent;
     background: transparent;
     border-top: transparent;
-    border-bottom: 2vh solid #FFFFFF;
+    border-bottom: 2vh solid #F6F7E9; /* 米色三角形 */
     cursor: pointer;
 }
 
@@ -120,17 +128,18 @@
     transform: rotate(90deg);
 }
 
+/* React Big Calendar Overrides */
 .rbc-calendar {
-    background-color: #FFFFFF;
+    background-color: #F6F7E9; /* 米色背景 */
 }
 
 .rbc-month-view, .rbc-time-view {
-    background-color: #FFFFFF;
+    background-color: #F6F7E9; /* 米色背景 */
     border: none;
 }
 
 .rbc-header {
-    color: #000000;
+    color: #002147; /* 深蓝色文字 */
     padding: 1vh 0;
     font-weight: bold;
     font-size: calc(1rem + 0.2vw);
@@ -143,22 +152,19 @@
 }
 
 .rbc-date-cell .rbc-button-link {
-    color: #000000;
+    color: #002147; /* 深蓝色文字 */
 }
 
 .rbc-date-cell--now .rbc-button-link {
-    color: #FFFFFF !important;
+    color: #F6F7E9 !important; /* 米色文字 */
 }
 
 .rbc-today {
-    background-color: #002147;
+    background-color: #E71D1D; /* 红色背景 */
     opacity: 0.4;
 }
 
-.rbc-event {
-    display: none !important;
-}
-
+/* Event List Section */
 .event-list {
     max-height: 60vh;
     overflow-y: auto;
@@ -168,9 +174,9 @@
     width: 100%;
     min-height: 54px;
     padding: 1vh 1vw;
-    background: #011F54;
-    color: #FFFFFF;
-    border: 1px solid #000000;
+    background: #89B0AE; /* 绿色背景 */
+    color: #F6F7E9; /* 米色文字 */
+    border: 1px solid #002147; /* 深蓝色边框 */
     border-radius: 8px;
     font-family: "Nunito";
     font-weight: 400;
@@ -181,14 +187,13 @@
     margin-bottom: 1vh;
 }
 
-
 .event-item-pin {
     width: auto;
     min-height: 54px;
     padding: 1vh 1vw;
-    background: #011F54;
-    color: #FFFFFF;
-    border: 1px solid #000000;
+    background: #89B0AE; /* 绿色背景 */
+    color: #F6F7E9; /* 米色文字 */
+    border: 1px solid #002147; /* 深蓝色边框 */
     border-radius: 8px;
     font-weight: 400;
     font-size: large;
@@ -204,24 +209,27 @@
     font-family: "Nunito";
     font-weight: 900;
     font-size: 2.5vh;
+    color: #E71D1D; /* 红色标题文字 */
     line-height: 1.3;
 }
 
 .no-events {
     font-family: "Nunito";
     font-size: large;
+    color: #002147; /* 深蓝色文字 */
 }
 
 .event-details {
     margin-top: 3vh;
     width: 100%;
-    background: #FFFFFF;
+    background: #F6F7E9; /* 米色背景 */
     border-radius: 8px;
 }
 
 .event-details h3 {
     font-size: calc(1.5rem + 0.5vw);
     margin-bottom: 2vh;
+    color: #002147; /* 深蓝色标题 */
 }
 
 .event-details ul {
@@ -231,21 +239,24 @@
 
 .event-details li {
     margin-bottom: 2vh;
+    color: #002147; /* 深蓝色文字 */
 }
 
 .event-details h4 {
     font-size: calc(1.2rem + 0.3vw);
     margin-bottom: 0.5vh;
+    color: #E71D1D; /* 红色小标题 */
 }
 
 .event-details p {
     margin: 0;
     font-size: calc(1rem + 0.2vw);
+    color: #002147; /* 深蓝色文字 */
 }
 
 .back-button {
-    background-color: #002147;
-    color: #FFFFFF;
+    background-color: #002147; /* 深蓝色背景 */
+    color: #F6F7E9; /* 米色文字 */
     border: none;
     padding: 1vh 2vw;
     border-radius: 8px;
@@ -258,6 +269,7 @@
     font-family: "Nunito";
     font-size: 3vh;
     font-weight: bold;
+    color: #002147; /* 深蓝色标题 */
     margin-bottom: 1vh;
 }
 
@@ -272,11 +284,11 @@
 
 .custom-date-header .date-label {
     font-size: calc(1rem + 0.2vw);
-    color: inherit;
+    color: #002147; /* 深蓝色文字 */
 }
 
 .custom-event-dot {
-    background-color: #E62838;
+    background-color: #E71D1D; /* 红色点 */
     border-radius: 50%;
     margin-top: 4px;
 }
