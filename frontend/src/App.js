@@ -22,9 +22,13 @@ import InstitutionWidget from './components/InstitutionWidget';
 import CareerOrientation from "./career/CareerOrientation";
 import BoxPlotChart from './components/BoxPlotChart';
 import UpcomingEvents from './components/UpcomingEvents';
+import Modal from 'react-modal';
+
+Modal.setAppElement('#root');
 
 const Homepage = () => {
   const [studentData, setStudentData] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false); 
   const selectedChildState = useSelector((state) => state.selectedChild);
   const { child: selectedChild } = selectedChildState;
 
@@ -38,12 +42,34 @@ const Homepage = () => {
 
   if (!studentData) return <div>Loading...</div>;
 
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <div className="dashboard-title-container">
       <div className="dashboard-title">Homepage</div>
       <div className="survey-results-title-comment">
         Hello! Welcome to OIC Education Parent Portal.
       </div>
+      
+      {/* Button to Open Modal */}
+      <button className="open-modal-button" onClick={openModal}>
+        Show Information
+      </button>
+
+      {/* Modal Content */}
+      {isModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h3>Information</h3>
+            <p>This is the modal window showing some information.</p>
+            <button className="close-modal-button" onClick={closeModal}>
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="dashboard">
         <div className="content">
           <div className="main-content">
@@ -55,7 +81,7 @@ const Homepage = () => {
           </div>
           <div className="sidebar-dashboard">
             <Interests data={studentData.interests} />
-            <UpcomingEvents studentId={selectedChild._id} /> {/* Add Upcoming Events */}
+            <UpcomingEvents studentId={selectedChild._id} />
           </div>
         </div>
       </div>
